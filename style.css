@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+:root {
+    --prime-color: hsl(218, 83%, 73%);
+}
+
+body {
+    background: rgb(46, 84, 114);
+}
+.container {
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.container img {
+    width: 15rem;
+}
+
+button {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: white;
+    border: none;
+    box-shadow: 0 0 12px white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: var(--prime-color);
+    box-shadow: 0 0 12px var(--prime-color);
+    color: white;
+}
+
+#winner{
+    display: flex;
+    justify-content: center;
+    font-family: 'Niconne', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-top: 5rem;
+    color: rgb(255, 255, 255);  
+}
+
+
+
